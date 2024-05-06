@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dead by Daylight Perk Creator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dead by Daylight Perk Creator</h1>
+    </header>
+    <main>
+        <form id="perkForm">
+            <label for="perkName">Perk Name:</label>
+            <input type="text" id="perkName" name="perkName" required>
+
+            <label for="perkDescription">Perk Description:</label>
+            <textarea id="perkDescription" name="perkDescription" required></textarea>
+
+            <button type="submit">Create Perk</button>
+        </form>
+
+        <div id="createdPerks">
+            <!-- Perks will be displayed here -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
