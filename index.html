@@ -11,19 +11,27 @@
         <h1>Идеи для Dead By Daylight</h1>
     </header>
     <main>
-        <form id="perkForm">
-            <label for="perkName">Perk Name:</label>
-            <input type="text" id="perkName" name="perkName" required>
+        <div class="idea">
+            <h2><span style="color: red">У</span> | Порча: Безвыходность</h2>
+            <h4>Тип: <span style="color: red;">Убийца</span></h4>
 
-            <label for="perkDescription">Perk Description:</label>
-            <textarea id="perkDescription" name="perkDescription" required></textarea>
-
-            <button type="submit">Create Perk</button>
-        </form>
-
-        <div id="createdPerks">
-            <!-- Perks will be displayed here -->
+            <p>Вы не позволите своим жертвам играть с вами по их правилам.</p>
+            <p>В начале вы получаете <span style="color: red; font-weight: bold;">5</span> 
+                жетонов <span style="color: orange; font-weight: bold;"><b>Порчи: Безвыходность</b></span>. 
+                После полной починки <span style="color: orange;">каждого генератора</span> сущность 
+                блокирует навыки <b>всех</b> выживших на <span style="color: orange;">6/8/12 секунд</span>. 
+                После уничтожения тотема с порчей ваши навыки заблокируются на 
+                <span style="color: red;">20/17/12 секунд</span>.</p>
         </div>
+
+        <div class="idea">
+            <h2><span style="color: green">В</span> | Запасной вариант</h2>
+            <h4>Тип: <span style="color: green;">Выживший</span></h4>
+
+            <p>Вы никогда не обходитесь одним вариантом, ведь всегда есть несколько.</p>
+            <p>После открытия ворот аура люка будет раскрыта для вас на <span style="color: orange">40/60/120 секунд</span>.</p>
+        </div>
+        
     </main>
 
     <script src="script.js"></script>

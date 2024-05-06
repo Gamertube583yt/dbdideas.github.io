@@ -1,49 +1,41 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
 header {
     background-color: #222;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 5px 0;
+    border-bottom: 2px solid #9e9e9e;
 }
 
-main {
-    padding: 20px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2e2e2e;
+    margin: 0;
+    padding: 0;
 }
 
-form {
-    margin-bottom: 20px;
+.idea {
+    background-color: #414141;
+    color: #fff;
+    padding: 1px 15px 1px 15px;
+    margin: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+    max-height: 60px;
+    transition: max-height 1s ease;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
+.idea:hover {
+    background-color: #3f3f3f;
+    max-height: 1000px;
 }
 
-input[type="text"],
-textarea {
-    width: 100%;
-    padding: 10px;
+.idea h2 {
+    font-size: 24px;
+    margin-top: 15px;
     margin-bottom: 10px;
 }
 
-button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #555;
-}
-
-#createdPerks {
-    border-top: 2px solid #333;
-    padding-top: 20px;
+.idea p {
+    font-size: 16px;
+    line-height: 1.5;
 }
