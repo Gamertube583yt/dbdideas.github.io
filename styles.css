@@ -13,7 +13,7 @@ body {
     padding: 0;
 }
 
-.idea {
+.perk {
     background-color: #414141;
     color: #fff;
     padding: 1px 15px 1px 15px;
@@ -24,18 +24,18 @@ body {
     transition: max-height 1s ease;
 }
 
-.idea:hover {
+.perk:hover {
     background-color: #3f3f3f;
     max-height: 1000px;
 }
 
-.idea h2 {
+.perk h2 {
     font-size: 24px;
     margin-top: 15px;
     margin-bottom: 10px;
 }
 
-.idea p {
+.perk p {
     font-size: 16px;
     line-height: 1.5;
 }
